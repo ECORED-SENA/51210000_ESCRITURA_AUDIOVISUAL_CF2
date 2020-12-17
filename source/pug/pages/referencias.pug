@@ -1,0 +1,33 @@
+include ../mixins/functions
+
+.container
+
+    .header-ecored
+        h1 Referencias bibliográficas
+
+    .jumbotron.bg-white.referencias
+
+        +referenciaItem("Campos, D. (2016). Curso de cine [Video]. YouTube.", "https://www.youtube.com/watch?v=Wh_FTF-fx8Q&list=PL1VbCz7r-lObH-5D4WcK0VrB4jLGyrURj&index=1")
+
+        +referenciaItem("Teatroarquitos. (2011). El contexto dramático. [Blog].", "https://teatroarquitos.wordpress.com/2011/01/29/el-contexto-dramatico/")
+
+        +referenciaItem("Real Academia Española (RAE). (2019). Diccionario web.", "https://dle.rae.es/")
+
+        +referenciaItem("Ministerio de Ciencia, Tecnología e Innovación (Minciencias). (2020). ¿Qué es I+C?", "https://minciencias.gov.co/investigacion-creacion/que-es-ic#:~:text=As%C3%AD%20como%20la%20investigaci%C3%B3n%2C%20los,las%20industrias%20creativas%20y%20culturales")
+
+
+        .row.justify-content-between.align-items-center
+
+            .col-12.col-md-5.my-4
+                .jumbotron.p-4
+                    .d-flex.justify-content-center.align-items-center
+                        p.text-center.pl-4
+                            i.fa.fa-picture-o.fa-2x.text-center
+                        p.text-center.flex-grow-1 Fotografías y vectores tomados de <a href="https://www.shutterstock.com/" target="_blank">https://www.shutterstock.com/</a> y <a href="https://www.freepik.es/" target="_blank">https://www.freepik.es/</a>
+
+            .col-12.col-md-5.my-4
+                .jumbotron.p-4
+                    .d-flex.justify-content-center.align-items-center
+                        p.text-center.pl-4
+                            i.fa.fa-creative-commons.fa-2x.text-center
+                        p.text-center.flex-grow-1 Licencia Creative Commons <br> <strong>CC BY-NC-SA</strong><br> <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/es/" target="_blank">Ver licencia.</a>            

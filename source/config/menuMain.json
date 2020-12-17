@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text",
+    "slug": "tema-1",
+    "title": "1. Idea",
+    "breadcrumb": ["Inicio","Introducción"],
+    "path": "pages/tema-1.html"
+  },  
+  { 
+    "id": 2,
+    "icon": "fa fa-file-text",
+    "slug": "tema-2",
+    "title": "2. Tema",
+    "breadcrumb": ["Inicio","Introducción"],
+    "path": "pages/tema-2.html"
+  },  
+  { 
+    "id": 3,
+    "icon": "fa fa-file-text",
+    "slug": "tema-3",
+    "title": "3. Investigación",
+    "breadcrumb": ["Inicio","Introducción"],
+    "path": "pages/tema-3.html"
+  }
+]
